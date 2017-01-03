@@ -31,11 +31,12 @@ npm install @optimal/object --save
 ```javascript
 // 1. optimize a an object
 var optimize = require('@optimal/object')
-  , object = {
-      key :'value',
-      some:'thing',
-      and :'more',
-  }
+
+var object = {
+  key :'value',
+  some:'thing',
+  and :'more',
+}
 
 // trigger slow mode
 delete object.and
